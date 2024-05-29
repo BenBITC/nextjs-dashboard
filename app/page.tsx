@@ -4,6 +4,11 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default function Page() {
   return (
